@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Properties from './Properties';
 
+
+
 class App extends Component
 {
     render()
@@ -9,6 +11,7 @@ class App extends Component
             <div>
                 
                 <div>
+                <script src="bootstrap.min.js"></script>
                     <p>List of all properties</p>
                     <Properties />
                     
