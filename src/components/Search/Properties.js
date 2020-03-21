@@ -40,13 +40,14 @@ class Properties extends Component{
          {this.state.properties.slice(0,this.state.visible).map((property,i) => (
              <div class="property-box-5">
                  <div class="row">
-                     <div class="col-lg-5 col-md-5 col-pad">
+                    
              <div  key ={`some-property -${i}`}>
-                 
+             <div class="col-lg-5 col-md-5 col-pad">
                   <div className="property-thumbnail">
                       
                        <  img style={{height:150}}src={property.picture.large}/></div> 
-                           
+                           </div>
+            <div class="col-lg-7 col-md-7 align-self-center col-pad">
                           <div class="detail">
                               <div class="id">property name</div>
                  <div class="title">{property.Areatype}</div>
@@ -115,12 +116,12 @@ class Properties extends Component{
                      </ul>
 
 
-                
+                </div>
                 </div>
                 </div>
                         </div>    
               </div>
-              </div>
+              
               
               
               
@@ -129,12 +130,13 @@ class Properties extends Component{
          ))
         }
          
-         </div>
-         <div class="pagination">
+        
+         
          <button primary style={{size:20,backgroundColor:'tranparent' ,textAlign:'center'}}  onClick={this.loadmore}>load more </button>
          </div>
          </div>
          </div>
+         
          
         );
     }
