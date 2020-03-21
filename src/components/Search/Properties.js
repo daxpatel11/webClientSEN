@@ -123,10 +123,6 @@ class Properties extends Component{
               </div>
               
               
-              
-              
-            
-             
          ))
         }
          
