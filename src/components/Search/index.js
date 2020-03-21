@@ -11,7 +11,7 @@ class App extends Component
             <div>
                 
                 <div>
-                <script src="bootstrap.min.js"></script>
+                
                     <p>List of all properties</p>
                     <Properties />
                     
